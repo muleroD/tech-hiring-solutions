@@ -43,7 +43,7 @@ public class DiagonalDifference {
     //    11 2 4
     //    4 5 6
     //    10 8 -12
-    private static int diagonalDifference(List<List<Integer>> arr) {
+    public static int diagonalDifference(List<List<Integer>> arr) {
         int primaryDiag = 0;
         int secondaryDiag = 0;
 

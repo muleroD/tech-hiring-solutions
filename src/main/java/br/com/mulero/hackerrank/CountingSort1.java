@@ -44,7 +44,7 @@ public class CountingSort1 {
     // 4	1	[0, 3, 1, 1]
 
     // result = [0,3,1,1]
-    private static List<Integer> countingSort(List<Integer> arr) {
+    public static List<Integer> countingSort(List<Integer> arr) {
         List<Integer> output = new ArrayList<>(Collections.nCopies(100, 0));
 
         for (Integer idxValue : arr) {

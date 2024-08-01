@@ -33,7 +33,7 @@ public class TimeConversion {
      * @param s String com formato AM/PM
      * @return String com formato 24H
      */
-    private static String timeConversion(String s) {
+    public static String timeConversion(String s) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm:ssa");
         TemporalAccessor parse = formatter.parse(s);
         formatter = DateTimeFormatter.ofPattern("HH:mm:ss");

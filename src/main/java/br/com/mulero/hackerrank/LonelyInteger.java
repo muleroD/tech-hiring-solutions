@@ -30,7 +30,7 @@ public class LonelyInteger {
         bufferedWriter.close();
     }
 
-    private static int lonelyinteger(List<Integer> a) {
+    public static int lonelyinteger(List<Integer> a) {
         int lonely = 0;
 
         HashMap<Integer, List<Integer>> elements = new HashMap<>();
