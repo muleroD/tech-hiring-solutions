@@ -1,8 +1,8 @@
 package br.com.mulero.hackerrank;
 
 import java.io.*;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.TemporalAccessor;
 
 /**
  * <a href="https://www.hackerrank.com/challenges/time-conversion">Time Conversion</a>
@@ -27,9 +27,7 @@ public class TimeConversion {
     }
 
     public static String timeConversion(String s) {
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm:ssa");
-        TemporalAccessor parse = formatter.parse(s);
-        formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
-        return formatter.format(parse);
+        LocalTime localTime = LocalTime.parse(s, DateTimeFormatter.ofPattern("hh:mm:ssa"));
+        return localTime.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
     }
 }
