@@ -7,6 +7,13 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/birthday-cake-candles">Birthday Cake Candles</a>
+ * <p>
+ * Este desafio consiste em encontrar o número de velas mais altas em um bolo de aniversário.
+ * Dada uma lista de velas, onde cada vela tem uma altura específica, o objetivo é encontrar
+ * quantas velas têm a mesma altura da vela mais alta.
+ */
 public class BirthdayCakeCandles {
 
     public static void main(String[] args) throws IOException {
@@ -20,7 +27,6 @@ public class BirthdayCakeCandles {
                 .collect(toList());
 
         int result = birthdayCakeCandles(candles);
-        System.out.println(result);
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
