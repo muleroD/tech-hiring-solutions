@@ -4,41 +4,28 @@ Repositório de soluções para desafios de HackerRank, LeetCode e outras plataf
 
 ## Estrutura do Repositório
 
-```
+```markdown
 /tech-hiring-solutions
 ├── README.md
 ├── LICENSE
-├── /src
-│ ├── /main
-│ │ └── /java
-│ │ └── /br
-│ │ └── /com
-│ │ └── /mulero
-│ │ ├── /hackerrank
+├── src
+│ ├── main
+│ │ └── java
+│ │ └── br
+│ │ └── com
+│ │ └── mulero
+│ │ ├── hackerrank
 │ │ │ └── SolutionN.java
-│ │ ├── /leetcode
+│ │ ├── leetcode
 │ │ │ └── SolutionN.java
-├── /sql
-│ ├── /hackerrank
+├── sql
+│ ├── hackerrank
 │ │ ├── easy
-│ │ │ ├── Query1.sql
-│ │ │ └── Query2.sql
+│ │ │ └── QueryN.sql
 │ │ ├── medium
-│ │ │ ├── Query1.sql
-│ │ │ └── Query2.sql
+│ │ │ └── QueryN.sql
 │ │ ├── hard
-│ │ ├── Query1.sql
-│ │ └── Query2.sql
-│ ├── /leetcode
-│ │ ├── easy
-│ │ │ ├── Query1.sql
-│ │ │ └── Query2.sql
-│ │ ├── medium
-│ │ │ ├── Query1.sql
-│ │ │ └── Query2.sql
-│ │ ├── hard
-│ │ ├── Query1.sql
-│ │ └── Query2.sql
+│ │ │ └── QueryN.sql
 └── pom.xml
 ```
 
