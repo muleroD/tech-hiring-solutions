@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import java.util.List;
 
+import static br.com.mulero.hackerrank.CompareTriplets.compareTriplets;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CompareTripletsTest {
@@ -16,7 +17,7 @@ class CompareTripletsTest {
         List<Integer> b = Arrays.asList(3, 6, 10);
 
         // When
-        List<Integer> result = CompareTriplets.compareTriplets(a, b);
+        List<Integer> result = compareTriplets(a, b);
 
         // Then
         assertEquals(1, result.get(0));
@@ -30,7 +31,7 @@ class CompareTripletsTest {
         List<Integer> b = Arrays.asList(3, 8, 10);
 
         // When
-        List<Integer> result = CompareTriplets.compareTriplets(a, b);
+        List<Integer> result = compareTriplets(a, b);
 
         // Then
         assertEquals(1, result.get(0));
@@ -44,7 +45,7 @@ class CompareTripletsTest {
         List<Integer> b = Arrays.asList(3, 6, 10);
 
         // When
-        List<Integer> result = CompareTriplets.compareTriplets(a, b);
+        List<Integer> result = compareTriplets(a, b);
 
         // Then
         assertEquals(1, result.get(0));
