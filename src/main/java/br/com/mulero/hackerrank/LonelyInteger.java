@@ -9,6 +9,11 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/lonely-integer">Lonely Integer</a>
+ * <p>
+ * Dada uma lista de inteiros, o objetivo é retornar o número que não possui um par.
+ */
 public class LonelyInteger {
 
     public static void main(String[] args) throws IOException {

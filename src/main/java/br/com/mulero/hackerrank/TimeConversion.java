@@ -4,6 +4,11 @@ import java.io.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAccessor;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/time-conversion">Time Conversion</a>
+ * <p>
+ * Dada uma string no formato AM/PM, o objetivo é retornar a string no formato 24H.
+ */
 public class TimeConversion {
 
     public static void main(String[] args) throws IOException {
@@ -13,7 +18,6 @@ public class TimeConversion {
         String s = bufferedReader.readLine();
 
         String result = timeConversion(s);
-        System.out.println(result);
 
         bufferedWriter.write(result);
         bufferedWriter.newLine();
@@ -22,17 +26,6 @@ public class TimeConversion {
         bufferedWriter.close();
     }
 
-    /**
-     * Metodo que recebe um formato AM/PM e retorna no formato 24H
-     * 12:00:00AM >> 00:00:00
-     * 12:01:00AM >> 00:01:00
-     * 12:00:00PM >> 12:00:00
-     * 12:01:00PM >> 12:01:00
-     * 09:08:21PM >> 21:08:21
-     *
-     * @param s String com formato AM/PM
-     * @return String com formato 24H
-     */
     public static String timeConversion(String s) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("hh:mm:ssa");
         TemporalAccessor parse = formatter.parse(s);

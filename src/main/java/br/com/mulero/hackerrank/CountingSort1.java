@@ -9,6 +9,12 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/countingsort1">Counting Sort 1</a>
+ * <p>
+ * Dada uma lista de inteiros, o objetivo é retornar um array de inteiros com a quantidade de
+ * ocorrências de cada número.
+ */
 public class CountingSort1 {
 
     public static void main(String[] args) throws IOException {

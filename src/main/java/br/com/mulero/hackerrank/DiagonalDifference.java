@@ -8,6 +8,12 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
+/**
+ * <a href="https://www.hackerrank.com/challenges/diagonal-difference">Diagonal Difference</a>
+ * <p>
+ * Dada uma matriz quadrada de inteiros, o objetivo é retornar a diferença entre a soma dos elementos
+ * da diagonal principal e a soma dos elementos da diagonal secundária.
+ */
 public class DiagonalDifference {
 
     public static void main(String[] args) throws IOException {
