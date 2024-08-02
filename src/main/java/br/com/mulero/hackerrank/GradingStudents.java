@@ -57,7 +57,7 @@ public class GradingStudents {
             else {
                 for (int i = 0; i < 3; i++) {
                     int up = grade + i;
-                    if (grade % 5 == 0 || up % 5 == 0) {
+                    if (up % 5 == 0) {
                         roundedGrades.add(up);
                         break;
                     } else if (i == 2) {
