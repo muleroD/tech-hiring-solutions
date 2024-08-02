@@ -13,31 +13,31 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class BirthdayCakeCandlesTest {
 
     @Test
-    void shouldReturn1() {
+    void givenCandlesWithOneMaxValues_thenReturn1() {
         List<Integer> candles = Arrays.asList(4, 1, 2, 3);
         assertEquals(1, birthdayCakeCandles(candles));
     }
 
     @Test
-    void shouldReturn2() {
+    void givenCandlesWithTwoMaxValues_thenReturn2() {
         List<Integer> candles = Arrays.asList(3, 2, 1, 3);
         assertEquals(2, birthdayCakeCandles(candles));
     }
 
     @Test
-    void shouldReturn3() {
+    void givenCandlesWithThreeMaxValues_thenReturn3() {
         List<Integer> candles = Arrays.asList(4, 1, 4, 4);
         assertEquals(3, birthdayCakeCandles(candles));
     }
 
     @Test
-    void shouldReturn4() {
-        List<Integer> candles = Arrays.asList(5, 1, 2, 4, 2, 3, 1, 3, 4, 2, 1, 0, 5, 5, 5);
-        assertEquals(4, birthdayCakeCandles(candles));
+    void givenCandlesWithOneMaxValuesAndRemainingNegative_thenReturn1() {
+        List<Integer> candles = Arrays.asList(4, -1, -2, -3, -4, 0);
+        assertEquals(1, birthdayCakeCandles(candles));
     }
 
     @Test
-    void shouldReturn0() {
+    void givenCandlesWithEmptyList_thenThrowNullPointerException() {
         List<Integer> candles = Collections.emptyList();
         assertThrows(NullPointerException.class, () -> birthdayCakeCandles(candles));
     }
