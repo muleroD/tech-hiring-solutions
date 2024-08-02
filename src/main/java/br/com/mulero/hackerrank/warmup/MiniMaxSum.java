@@ -1,4 +1,4 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.warmup;
 
 import java.io.BufferedReader;
 import java.io.IOException;

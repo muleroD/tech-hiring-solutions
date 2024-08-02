@@ -1,8 +1,8 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.warmup;
 
 import org.junit.jupiter.api.Test;
 
-import static br.com.mulero.hackerrank.TimeConversion.timeConversion;
+import static br.com.mulero.hackerrank.warmup.TimeConversion.timeConversion;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TimeConversionTest {

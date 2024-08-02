@@ -1,4 +1,4 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.bit.manipulation;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static br.com.mulero.hackerrank.LonelyInteger.lonelyinteger;
+import static br.com.mulero.hackerrank.bit.manipulation.LonelyInteger.lonelyinteger;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class LonelyIntegerTest {

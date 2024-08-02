@@ -1,4 +1,4 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.Implementation;
 
 import java.io.*;
 import java.util.ArrayList;

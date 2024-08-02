@@ -1,11 +1,11 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.implementation;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static br.com.mulero.hackerrank.GradingStudents.gradingStudents;
+import static br.com.mulero.hackerrank.Implementation.GradingStudents.gradingStudents;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class GradingStudentsTest {

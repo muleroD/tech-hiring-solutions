@@ -1,4 +1,4 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.warmup;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static br.com.mulero.hackerrank.BirthdayCakeCandles.birthdayCakeCandles;
+import static br.com.mulero.hackerrank.warmup.BirthdayCakeCandles.birthdayCakeCandles;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

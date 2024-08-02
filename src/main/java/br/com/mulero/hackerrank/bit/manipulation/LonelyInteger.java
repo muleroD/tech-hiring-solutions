@@ -1,4 +1,4 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.bit.manipulation;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -40,6 +40,7 @@ public class LonelyInteger {
 
         HashMap<Integer, List<Integer>> elements = new HashMap<>();
 
+        // Alterar para utilizar Bitwise XOR
         for (int i = 0; i < a.size(); i++) {
             if (!elements.containsKey(a.get(i))) elements.put(a.get(i), new ArrayList<>(i));
             else elements.get(a.get(i)).add(i);

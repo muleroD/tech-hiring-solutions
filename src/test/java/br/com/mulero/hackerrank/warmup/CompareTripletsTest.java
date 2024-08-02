@@ -1,11 +1,11 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.warmup;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static br.com.mulero.hackerrank.CompareTriplets.compareTriplets;
+import static br.com.mulero.hackerrank.warmup.CompareTriplets.compareTriplets;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CompareTripletsTest {

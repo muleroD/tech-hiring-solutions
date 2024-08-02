@@ -1,11 +1,11 @@
-package br.com.mulero.hackerrank;
+package br.com.mulero.hackerrank.warmup;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static br.com.mulero.hackerrank.MiniMaxSum.miniMaxSum;
+import static br.com.mulero.hackerrank.warmup.MiniMaxSum.miniMaxSum;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MiniMaxSumTest {
