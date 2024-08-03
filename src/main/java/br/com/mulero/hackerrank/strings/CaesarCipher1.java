@@ -34,23 +34,19 @@ public class CaesarCipher1 {
 
         s.chars().forEach(i -> {
             boolean isCharacter = Pattern.matches("[a-zA-Z]", String.valueOf((char) i));
-            char c = (char) i;
-
-            boolean upper = i >= 65 && i <= 90;
-            boolean lower = i >= 97 && i <= 122;
 
             if (isCharacter) {
                 int decimal = i + (k % 26);
 
-                if (upper && decimal > 90) {
+                if (i >= 65 && i <= 90 && decimal > 90) {
                     decimal = 64 + (decimal - 90);
-                } else if (lower && decimal > 122) {
+                } else if (i >= 97 && i <= 122 && decimal > 122) {
                     decimal = 96 + (decimal - 122);
                 }
 
                 output.append((char) decimal);
             } else {
-                output.append(c);
+                output.append((char) i);
             }
         });
 
